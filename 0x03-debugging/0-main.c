@@ -5,8 +5,8 @@
 */
 int main(void)
 {
-int j;
-j = 0;
-positive_or_negative(j);
+int i;
+i = 0;
+positive_or_negative(i);
 return (0);
 }
