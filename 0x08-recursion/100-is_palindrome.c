@@ -37,11 +37,12 @@ int _strlen_recursion(char *s)
  *
  * Return: 1 if palindrome, 0 if not
  */
-int check_pal(char *s, int i, int length)
+int check_pal(char *s, int i, int len)
 {
-	if (*(s + i) != *(s + length - 1))
+	if (*(s + i) != *(s + len - 1))
 		return (0);
-	if (i >= length)
+	if (i >= len)
 		return (1);
-	return (check_pal(s, i + 1, length - 1));
+	return (check_pal(s, i + 1, len - 1));
 }
+
