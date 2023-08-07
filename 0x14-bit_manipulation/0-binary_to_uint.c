@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
  * binary_to_uint - This funtion convert binary to decimal
  * @b: This is my string of entry
